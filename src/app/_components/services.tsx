@@ -11,28 +11,28 @@ const services = [
     {
         title: "PANTUFA ADULTO",
         
-        url: <iframe width="260" height="215" src="https://www.youtube.com/embed/P3oCPH9i5oc?si=XG6nqLb0rKpMIOXu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
     },
     {
         title: "CACHECOL",
        
-        url: <iframe width="260" height="215" src="https://www.youtube.com/embed/DKjpw1yITcM?si=6cn28YMGkoHC6Hun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
     },
     {
         title: "PANTUFA",
       
-        url: <iframe width="260" height="215" src="https://www.youtube.com/embed/iWbLNMr5Uok?si=8VIxH_fTNu02uXpn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
     },
     {
         title: "CASAQUINHO INFANTIL",
   
-      url: <iframe width="260" height="215" src="https://www.youtube.com/embed/fURjfaJN620?si=qKnORMr3tfL5nMSd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
         
     },
     {
             title: "CACHECOL MEIA ESTAÇÃO",
          
-        url: <iframe width="260" height="215" src="https://www.youtube.com/embed/HgdpXYcTV9w?si=PYiD0GEYLvZuLoYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
     },
 ]
 
@@ -84,7 +84,7 @@ export function Services(){
                                                         
 
                                                         <div>
-                                                            {item.url}
+                                                            <h1>aqui vai a foto</h1>
                                                         
                                                         </div>
 

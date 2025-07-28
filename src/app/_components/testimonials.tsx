@@ -10,22 +10,22 @@ const testimonials = [
   {
     author: "TOUCA PARA RECÉM NASCIDO",
     image: tutor2,
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/EE94hKzDTwI?si=UoY3tzoPzKYY9L7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
   },
   {
     author: "CHAVEIRO BOLA",
     image: tutor2,
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/ISvTwEZWZ5s?si=qpkFZt28NcAs3iu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
   },
   {
     author: "Quadrado clássico",
     image: tutor2,
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/zuLHO58MZjs?si=lNkqzgYu_7hVIUF7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
   },
   {
     author: "Decoração de natal",
     image: tutor2,
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/oDTyiQ_z1tk?si=IZvehJAdrlv2SoQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
   },
 ];
 
@@ -59,7 +59,7 @@ export function Testimonials() {
                         <p className="font-bold">{item.author}</p>
                        
                         <div>
-                          {item.url}
+                          <h1>aqui vai a foto</h1>
                         </div>
 
                            <div className='rounded mt-4 bg-gray-500 hover:bg-gray-600 px-5 py-2'>
