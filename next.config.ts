@@ -1,15 +1,11 @@
-import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === "production";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const repo = "/site-neia-trico";
+
+const nextConfig = {
+  basePath: isProd ? repo : "",
+  assetPrefix: isProd ? repo + "/" : "",
+  ...(isProd && { output: "export" }),
 };
 
-const repo = '/site-neia-trico';
-
-module.exports = {
-  output: 'export',
-  basePath: repo,
-  assetPrefix: repo + '/',
-};
-
-export default nextConfig;
+module.exports = nextConfig;

@@ -2,13 +2,14 @@ import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/
 
 const brands = [
   {  title: "PANTUFA ADULTO",
-    url: <iframe width="260" height="215" src="https://www.youtube.com/embed/Z06nAjF75uc?si=G3UM5zBulvbzxpiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> },
+  },
+
 
   { title: "PANTUFA ADULTO",
-    url: <iframe width="260" height="215" src="https://www.youtube.com/embed/APDOQWDb9HI?si=tQzMy-09ftor9oy-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>},
+    },
 
    {title: "PANTUFA ADULTO", 
-    url: <iframe width="260" height="215" src="https://www.youtube.com/embed/2bV2DTT-vOQ?si=70LKc-p_J9jUlP__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>},
+    },
   
  
 ];
@@ -32,7 +33,7 @@ export function Footer() {
                   {item.title}
                  </div>
                  <div>
-                    {item.url}
+                    <h1>vai a imagem</h1>
                  </div>
 
                  </div>
